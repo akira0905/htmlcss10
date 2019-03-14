@@ -403,9 +403,13 @@ footer{
     	font-size:18px;
     }
     .portfolio-image{
-    	width:100%;
+    	width:300px;
     	padding:30px 5% 90px 5%;
     	float:none;
+    	margin: 0 auto;
+    }
+    .sp{
+    	display:none;
     }
     .image2{
 		background-image:url(img/websuku.png);
@@ -437,10 +441,11 @@ footer{
 	.person{
 		float:none;
 		width:100%;
-		margin:0 auto;
+		margin:0;
 	}
 	.face{
 		margin-left:0;
+		margin:0 auto;
 	}
 
 	.person-list{
@@ -466,6 +471,9 @@ footer{
 		text-decoration:underline;
 		 margin-bottom:20px;
 		 color:#000000;
+	}
+	.myskills-element{
+		text-align:center;
 	}
 	.group-left{
 		width:100%;
